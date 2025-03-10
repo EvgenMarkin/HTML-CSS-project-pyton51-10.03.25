@@ -1,0 +1,18 @@
+*{/*глобальное обращение по всему умолчанию*/
+    color:black;
+    foot-size: 14px;
+}
+body{
+    background:#87a96b;
+    color:#6f0035; <!-- HEX описание цвета -->
+    }
+p   {
+    font-size:25px;
+    }
+h1{color: rgb(250,128,114);} <!-- RGB палитра -->
+h2{color: orange;} <!-- прямое описание цвета -->
+h3{color: black;}
+h4{color: blue;}
+h5{color: white;}
+h6{color: purpur;}
+/* при одинаковом повторинии упращение h1,h2,h3...{} */
