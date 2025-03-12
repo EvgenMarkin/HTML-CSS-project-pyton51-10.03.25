@@ -2,6 +2,14 @@
     color:black;
     foot-size: 14px;
 }
+/*Оформление меню*/
+    #menu1{
+    }
+    #menu1 ul{
+    display:flex;
+    }
+    #menu1
+
 body{
     background:#87a96b;
     color:#6f0035; <!-- HEX описание цвета -->
@@ -16,3 +24,29 @@ h4{color: blue;}
 h5{color: white;}
 h6{color: purpur;}
 /* при одинаковом повторинии упращение h1,h2,h3...{} */
+/* свойства для абзацев */
+#p1{
+    /*нужен для отображения пробелов между словами*/
+    /*normal
+    |nowrap не учитывать пробелы и переносы
+    |pre отображение с учетом всех перенососв и пробелов
+    |pre-line не учитывать пробелы, перенести текст на слейдующую строку
+    |pre-wrap сохраняет все пробелы и переносы, но если строка не помещается - то текст автоматический будет преренесен*/
+    white-space: nowrap;
+    }
+
+#p2{
+    white-space: normal;
+
+    word-break: break-all;
+     width:200px;}/* gthtyjc cnhjr dyenhb ckjd |normal
+     |break-all добовляет перенос строк так, чтобы слово поместилось в заданную ширину
+     | keep-all запрещяет перенос слов*/
+.p3{
+    white-space: normal;
+    writing-mode:vertical-lr;
+    height:100px;
+    /*writing-mode:horizontal-tb;Горизонтальная сверхху вниз,
+    vertical-rl вертикальня сверху вниз справо налево
+    vertical-lr вертикальная сверху вниз слева напрво*/
+    }
