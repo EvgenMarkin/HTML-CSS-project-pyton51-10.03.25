@@ -1,15 +1,47 @@
 *{/*глобальное обращение по всему умолчанию*/
-    color:black;
-    foot-size: 14px;
+   color:black;
+    foot-size: 75px;
 }
 /*Оформление меню*/
-    #menu1{
-    }
-    #menu1 ul{
-    display:flex;
-    }
-    #menu1
+    #menu1 {
+        width:auto;
+        display:block;
+        margin: 0 auto 0px;
 
+}
+    header{
+        background: #e6b3b3;
+        border-bottom: 2px solid black;
+        padding:0px;
+        margin:0px;
+}
+    #menu1 ul{
+        list-style:none;
+        display:flex;
+        margin: 0px;
+        padding: 0px;
+        padding-left:0 ;
+
+}
+    #menu1 ul li{
+        width: 150Px;
+        height: 37Px;
+        font-size:35px;
+        border-right: 2px solid black;
+        border-left: 2px solid black;
+        background:#DCDCDC;
+        text-align: center; /* Горизонтальное положение*/
+        vertical-align: bottom;
+        transition:1S;
+        margin: auto;
+}
+    #menu1 ul li:hover{
+        background:red;
+    }
+
+    #menu1 ul a{
+        text-decoration: none;
+}
 body{
     background:#87a96b;
     color:#6f0035; <!-- HEX описание цвета -->
