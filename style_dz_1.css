@@ -1,0 +1,22 @@
+-ms-hyphens: auto;
+-webkit-hyphens: auto;
+hyphens: auto;
+#style_text
+    {
+    font-size:25px;
+    white-space: narmal;
+    }
+#style_z2
+    {
+    font-size:25px;
+    color:#413d8b;
+    }
+#style_z1
+    {
+    font-size:25px;
+    color:#6d86a9;
+    }
+body{
+    h1{color: orange;}
+    h2{color: black;}
+    }
