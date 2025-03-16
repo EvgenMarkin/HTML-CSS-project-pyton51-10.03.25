@@ -1,6 +1,40 @@
 -ms-hyphens: auto;
 -webkit-hyphens: auto;
 hyphens: auto;
+#karta {
+        width:auto;
+        display:block;
+        margin: 0 auto 0px;
+
+}
+#karta ul
+    {
+        list-style:none;
+        display:flex;
+        margin: 0px;
+        padding: 0px;
+        padding-left:0 ;
+
+    }
+#karta ul li
+    {
+        width: avto;
+        height: avto;
+        font-size:35px;
+        background:#DCDCDC;
+        text-align: center; /* Горизонтальное положение*/
+        vertical-align: bottom;
+        transition:1S;
+        margin: auto;
+    }
+#karta ul li:hover
+    {
+        background:red;
+    }
+#karta ul a
+    {
+        text-decoration: none;
+    }
 body{
     font-family: Calibri;
     background:#f5f5f5;
