@@ -1,22 +1,38 @@
 -ms-hyphens: auto;
 -webkit-hyphens: auto;
 hyphens: auto;
-#style_text
+#style-text/*не работает размер текста и весь этот блок(*/
     {
-    font-size:25px;
-    white-space: narmal;
-    }
-#style_z2
-    {
-    font-size:25px;
-    color:#413d8b;
+    font-size:50px;
+    white-space: normal;
+    color:#e5be01;
+    margin:0;
     }
 #style_z1
     {
-    font-size:25px;
+    font-size:30px;
+    color:#413d8b;
+    white-space: normal;
+    margin:0;
+    }
+#style_z2
+    {
+    font-size:20px;
     color:#6d86a9;
+    white-space: normal;
+    }
+#style_z3
+    {
+    font-size:17px;
+    color:#6d86a9;
+    white-space: normal;
+    }
+#comment
+    {
+    font-size:12px;
+    white-space: normal;
     }
 body{
-    h1{color: orange;}
-    h2{color: black;}
-    }
+    font-family: Calibri;
+    background:#f5f5f5;
+}

@@ -52,7 +52,7 @@ p   {
 h1{color: rgb(250,128,114);} <!-- RGB палитра -->
 h2{color: red;} <!-- прямое описание цвета -->
 h3{color: black;}
-h4{color: blue;}
+h4{color: white;}
 h5{color: white;}
 h6{color: purpur;}
 /* при одинаковом повторинии упращение h1,h2,h3...{} */
