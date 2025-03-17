@@ -1,0 +1,23 @@
+#zad2 ul li
+{
+    list-style-type: none;
+}
+
+#zad2 ul li:before
+{
+    content:"☐";
+}
+.line1:before
+{
+    text-decoration:line-through;
+    content:"☑";
+}
+#zad2 ul li:after
+{
+    color:red;
+    content:"x"
+}
+body{
+    font-family: Calibri;
+    background:#f5f5f5;
+}
