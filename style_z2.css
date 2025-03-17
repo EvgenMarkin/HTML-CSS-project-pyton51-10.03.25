@@ -9,7 +9,7 @@
 }
 .line1:before
 {
-    text-decoration:line-through;
+
     content:"☑";
 }
 #zad2 ul li:after
@@ -17,6 +17,11 @@
     color:red;
     content:"x"
 }
+.line1
+{
+    text-decoration:line-through;
+
+    }
 body{
     font-family: Calibri;
     background:#f5f5f5;
