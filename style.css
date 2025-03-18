@@ -10,8 +10,8 @@
 
 }
     header{
-        background: #e6b3b3;
-        border-bottom: 2px solid black;
+        background: #87a96b;
+
         padding:0px;
         margin:0px;
 }
@@ -27,8 +27,6 @@
         width: 150Px;
         height: 37Px;
         font-size:35px;
-        border-right: 2px solid black;
-        border-left: 2px solid black;
         background:#DCDCDC;
         text-align: center; /* Горизонтальное положение*/
         vertical-align: bottom;
@@ -42,7 +40,7 @@
     #menu1 ul a{
         text-decoration: none;
 }
-body{
+herder{
     background:#87a96b;
     color:#6f0035; <!-- HEX описание цвета -->
     }

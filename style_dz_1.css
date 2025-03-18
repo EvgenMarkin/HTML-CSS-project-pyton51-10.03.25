@@ -1,6 +1,7 @@
 -ms-hyphens: auto;
 -webkit-hyphens: auto;
 hyphens: auto;
+body{
 #style-text/*не работает размер текста и весь этот блок(*/
     {
     font-size:50px;
@@ -32,7 +33,7 @@ hyphens: auto;
     font-size:12px;
     white-space: normal;
     }
-body{
+
     font-family: Calibri;
     background:#f5f5f5;
 }

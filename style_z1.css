@@ -6,18 +6,21 @@
    foot-size: 0px;
 }
 /*Оформление меню*/
-    #zad1 {
+    #zad1
+    {
         width:avto;
         display:block;
         margin: 5px;
         padding: 0px;
-}
-    #zad1 ol{
+    }
+    #zad1 ol
+    {
         padding: 0px;
         padding-left:0px;
         background:#c66376;
-}
-    #zad1 ol li{
+    }
+    #zad1 ol li
+    {
         width: min-content;
         height: 37Px;
         font-size:20px;
@@ -28,8 +31,13 @@
         border-top: 1px black;
         text-align: left; /* Горизонтальное положение*/
         vertical-align: bottom;
+    }
+    #zad1 th
+    {
+        border: 1px solid grey;
+    }
 
-}
+
 #zad1 ol li zd
 {
 
