@@ -8,6 +8,7 @@
 /*Оформление меню*/
     #zad1
     {
+
         width:avto;
         display:block;
         margin: 5px;
@@ -15,33 +16,30 @@
     }
     #zad1 ol
     {
+
+        border-bottom: solid ;
         padding: 0px;
         padding-left:0px;
         background:#c66376;
     }
     #zad1 ol li
     {
+
         width: min-content;
         height: 37Px;
         font-size:20px;
         background:#9e354a;
-
         padding:top 5px;
-        margin-left: 45px;
+        margin-left: 30px;
         border-top: 1px black;
         text-align: left; /* Горизонтальное положение*/
         vertical-align: bottom;
     }
-    #zad1 th
+    #zad1 ol li::marker
     {
-        border: 1px solid grey;
+        color: white;
+
     }
-
-
-#zad1 ol li zd
-{
-
-}
 body{
     background:#ed9eae;
     color:#6f0035; <!-- HEX описание цвета -->
@@ -49,12 +47,7 @@ body{
 p   {
     font-size:25px;
     }
-h1{color: rgb(250,128,114);} <!-- RGB палитра -->
-h2{color: red;} <!-- прямое описание цвета -->
-h3{color: black;}
-h4{color: white;}
-h5{color: white;}
-h6{color: purpur;}
+
 /* при одинаковом повторинии упращение h1,h2,h3...{} */
 /* свойства для абзацев */
 #p1{
