@@ -1,6 +1,6 @@
 *{/*глобальное обращение по всему умолчанию*/
    color:black;
-    foot-size: 75px;
+   foot-size: 75px;
 }
 /*Оформление меню*/
     #menu1 {
@@ -43,10 +43,10 @@
 herder{
     background:#87a96b;
     color:#6f0035; <!-- HEX описание цвета -->
-    }
-p   {
+}
+p{
     font-size:25px;
-    }
+}
 h1{color: rgb(250,128,114);} <!-- RGB палитра -->
 h2{color: red;} <!-- прямое описание цвета -->
 h3{color: black;}
@@ -80,6 +80,40 @@ h6{color: purpur;}
     vertical-rl вертикальня сверху вниз справо налево
     vertical-lr вертикальная сверху вниз слева напрво*/
     }
+.aliganleft{
+    float:right;
+    margin-right:0Px;
+}
+.aliganright{
+    float:left;
+    margin-left:0Px;
+}
+.post{
+       background:#8fffc7;
+       border: 1px solid black;
+       border-radius:30px;
+}
+.post-info{
+    color:#cecece;
+   }
+.post div{
+    padding:0px;
+}
+.post img{
+    border: 10px double black;
+    border-radius:30Px;
+    margin:30px;
+    /*
+    widht -
+    height -
+    size - размеры страницы для разных маркеров изображения, при разных разрешениях.
+    srcset - указывает набор возможных изображений для отображения в брайзере( адрес, ширина, плостность пикселей)
+    imap - указатель серверной карты-изображения, к которой можно привязать сслыки
+    usemap - связывает картинку с картой изобраджения при помощи тега <map>
+    Применяется изображения формата Jpeg, GIF, PNG, PNG-8,24,32, Apng, SVG, web bmp, ico, fav.
+    */
+ }
+
 #comment
     {
     font-size:12px;
@@ -88,4 +122,3 @@ h6{color: purpur;}
 
     font-family: Calibri;
     background:#f5f5f5;
-}
