@@ -18,7 +18,7 @@
     {
 
         padding: 0px;
-        padding-left:0px;
+        padding-left:10px;
         background:#ed9eae;
     }
     #zad1 ol li
@@ -32,6 +32,9 @@
         margin-left: 40px;
         text-align: left; /* Горизонтальное положение*/
         vertical-align: bottom;
+    }
+    #zad1 ol li::before{
+
     }
     #zad1 ol li::marker
     {
