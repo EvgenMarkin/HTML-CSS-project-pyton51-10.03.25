@@ -3,9 +3,9 @@
    foot-size: 75px;
 }
 /*Оформление меню*/
-    .menu1,.menu1-footer {
+    .menu1,.menu1footer {
         width:auto;
-        display:block;
+        display:flex;
         margin: 0 auto 0px;
 
 }
@@ -23,15 +23,15 @@
         padding-left:0 ;
 
 }
-.menu1-footer ul{
+.menu1footer ul{
         list-style:none;
         display:block;
-        margin: px;
-        padding: px;
+        margin: 0px;
+        padding: 0px;
         padding-left:0 ;
 
 }
-    .menu1 ul li,.menu1-footer ul li{
+    .menu1 ul li{
         width: 150Px;
         height: 37Px;
         font-size:35px;
@@ -41,15 +41,26 @@
         transition:1S;
         margin: 5px;
 }
-    .menu1 ul li:hover,.menu1-footer ul li:hover{
+.menu1footer ul li{
+        width: auto;
+        height:auto;
+        font-size:35px;
+        background:#DCDCDC;
+        text-align: center; /* Горизонтальное положение*/
+        vertical-align: bottom;
+        transition:1S;
+        margin: 5px;
+        diplay:block;
+}
+    .menu1 ul li:hover,.menu1footer ul li:hover{
         background:red;
     }
 
-    .menu1 ul a,.menu1-footer ul a{
+    .menu1 ul a,.menu1footer ul a{
         text-decoration: none;
 }
 
-herder{
+header{
     background:#87a96b;
     color:#6f0035; <!-- HEX описание цвета -->
 }
@@ -91,11 +102,11 @@ h6{color: purpur;}
     }
 .aliganleft{
     float:right;
-    margin-right:0Px;
+    margin-right:0px;
 }
 .aliganright{
     float:left;
-    margin-left:0Px;
+    margin-left:0px;
 }
 .post{
        background:#8fffc7;
@@ -127,15 +138,16 @@ h6{color: purpur;}
     {
     font-size:12px;
     white-space: normal;
-    }
-
     font-family: Calibri;
     background:#f5f5f5;
+    }
+
+
 /*Настрой стиля Footer*/
-.footer-colums{
+.footercolumns{
     display:flex;
 }
-.footer-colum{
+.footercolumn{
     flex:33%;
     margin:20px;
 }
