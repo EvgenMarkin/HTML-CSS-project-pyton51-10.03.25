@@ -17,28 +17,36 @@
     #zad1 ol
     {
 
-        border-bottom: solid ;
         padding: 0px;
         padding-left:0px;
-        background:#c66376;
+        background:#ed9eae;
     }
     #zad1 ol li
     {
 
         width: min-content;
         height: 37Px;
-        font-size:20px;
+        font-size:30px;
         background:#9e354a;
-        padding:top 5px;
-        margin-left: 30px;
-        border-top: 1px black;
+        padding:top 0px;
+        margin-left: 40px;
         text-align: left; /* Горизонтальное положение*/
         vertical-align: bottom;
     }
     #zad1 ol li::marker
     {
         color: white;
-
+        background-color:#c66376;
+    }
+    .zd
+    {
+    padding: 10px;
+    margin: 10px;
+    color:white;
+    }
+    #zd ol
+    {
+    margin-border: 10px solid black;
     }
 body{
     background:#ed9eae;

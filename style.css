@@ -80,3 +80,12 @@ h6{color: purpur;}
     vertical-rl вертикальня сверху вниз справо налево
     vertical-lr вертикальная сверху вниз слева напрво*/
     }
+#comment
+    {
+    font-size:12px;
+    white-space: normal;
+    }
+
+    font-family: Calibri;
+    background:#f5f5f5;
+}
