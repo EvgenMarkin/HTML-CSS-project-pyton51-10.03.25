@@ -29,8 +29,21 @@ hyphens: auto;
     {
         text-decoration: none;
     }
+.red{
+    color:red;
+}
 body
     {
         font-family: Calibri;
-        background:#f5f5f5;
+        background:wight;
     }
+head{
+    background: #87a96b;
+
+        padding:0px;
+        margin:0px;
+}
+
+header{
+    background:#ffffff;
+}
