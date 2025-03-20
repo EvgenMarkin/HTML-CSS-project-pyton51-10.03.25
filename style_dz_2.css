@@ -1,6 +1,18 @@
 -ms-hyphens: auto;
 -webkit-hyphens: auto;
 hyphens: auto;
+head{
+    background: #87a96b;
+    padding:0px;
+    margin:0px;
+}
+header{
+
+}
+body{
+
+}
+body{
 #karta
     {
         width:auto;
@@ -31,19 +43,4 @@ hyphens: auto;
     }
 .red{
     color:red;
-}
-body
-    {
-        font-family: Calibri;
-        background:wight;
-    }
-head{
-    background: #87a96b;
-
-        padding:0px;
-        margin:0px;
-}
-
-header{
-    background:#ffffff;
 }

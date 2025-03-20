@@ -65,7 +65,7 @@ header{
     color:#6f0035; <!-- HEX описание цвета -->
 }
 p{
-    font-size:25px;
+    /*font-size:25px;*/
 }
 h1{color: rgb(250,128,114);} <!-- RGB палитра -->
 h2{color: red;} <!-- прямое описание цвета -->

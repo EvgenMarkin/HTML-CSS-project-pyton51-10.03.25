@@ -33,31 +33,34 @@
         text-align: left; /* Горизонтальное положение*/
         vertical-align: bottom;
     }
-    #zad1 ol li::before{
+#zad1 ol li::before
+{
 
-    }
-    #zad1 ol li::marker
-    {
-        color: white;
-        background-color:#c66376;
-    }
-    .zd
-    {
+}
+#zad1 ol li::marker
+{
+    color: white;
+    background-color:#c66376;
+}
+.zd
+{
     padding: 10px;
     margin: 10px;
     color:white;
-    }
-    #zd ol
-    {
+}
+#zd ol
+{
     margin-border: 10px solid black;
-    }
-body{
+}
+body
+{
     background:#ed9eae;
     color:#6f0035; <!-- HEX описание цвета -->
-    }
-p   {
+}
+p
+{
     font-size:25px;
-    }
+}
 
 /* при одинаковом повторинии упращение h1,h2,h3...{} */
 /* свойства для абзацев */
