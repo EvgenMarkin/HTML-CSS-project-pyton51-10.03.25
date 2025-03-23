@@ -40,57 +40,75 @@
 <center><h2>What is HTML?</h2></CENTER>
 
 <p>
-    <B>Hypertext Markup Language (HTML)</B> is the standard markup language
+    <B>Hypertext Markup Language (<abbr>HTML</abbr>)</B> is the standard markup
+    language
     for creating web pages and web applications.
 <p>
 <p>
-Web browsers receive HTML documents from a web server or from local storage
-    and render the documents into multimedia web pages. HTML describes the
-    structure of a web page semantically and originally included cues for
-    the appearance of the document.
+Web browsers receive <abbr>HTML</abbr> documents from a web server or from local
+storage and render the documents into multimedia web pages.<abbr>HTML</abbr>
+describes the structure of a web page semantically and originally included
+cues for the appearance of the document.
 </p>
-<p>
-HTML elements are the building blocks of HTML pages. With HTML constructs,
-    images and other objects such as interactive forms may be embedded into
-    the rendered page. HTML provides a means to create structured documents
-    by denoting structural semantics for text such as headings, paragraphs,
-    lists, links, quotes and other items. HTML elements are delineated by
-    tags, written using angle brackets. Tags such as <img /> and <input />
-    directly introduce content into the page. Other tags such as <p> surround
-    and provide information about document text and may include other tags
-    as sub-elements. Browsers do not display the HTML tags, but use them
-    to interpret the content of the page.
+<abbr>HTML</abbr> elements are the building blocks of <abbr>HTML</abbr> pages.
+With <abbr>HTML</abbr> constructs, images and other objects such as interactive
+forms may be embedded into the rendered page. <abbr>HTML</abbr> provides a means
+to create structured documents by denoting structural semantics for text such
+as headings, paragraphs, lists, links, quotes and other items. <abbr>HTML</abbr>
+elements are delineated by tags, written using angle brackets. Tags such as
+<span class="cod">&lt;img/></span> and <span class="cod">&lt;input /></span>
+directly introduce content into the page. Other tags such as <span class="cod">
+&lt;p></span> surround and provide information about document text and may include
+other tags as sub-elements. Browsers do not display the <abbr>HTML</abbr> tags,
+but use them to interpret the content of the page.
 </p>
 <hr>
 <center><h2>Markup</h2></CENTER>
 <p>
-HTML markup consists of several key components, including those called
-    tags (and their attributes), character-based data types, character
-    references and entity references. HTML tags most commonly come in
-    pairs like <h1> and </h1>, although some represent empty elements
-and so are unpaired, for example <img>. The first tag in such a pair
-is the start tag, and the second is the end tag (they are also called
-opening tags and closing tags).
+<abbr>HTML</abbr> markup consists of several key components, including those
+called tags (and their <dfn>attributes</dfn>), character-based <dfn>data types
+</dfn>, character references</dfn> and <dfn>entity references</dfn>. <abbr>HTML
+</abbr> tags most commonly come in pairs like <span class="cod">&lt;h1></span> and
+<span class="cod">&lt;/h1></span>, although some represent <i>empty elements</i>
+ and so are unpaired, for example <span class="cod">&lt;img></span>. The first
+ tag in such a pair is the start tag, and the second is the <dfn>end tag </dfn>
+ (they are also called <dfn>opening tags</dfn> and <dfn>closing tags</dfn>).
 </p>
 <p>
-Another important component is the HTML document type declaration,
-    which triggers standards mode rendering.
+Another important component is the <abbr>HTML</abbr> <dfn>document type
+declaration</dfn>, which triggers standards mode rendering.
 </p>
 <p>
 The following is an example of the classic "Hello, World!" program:
 </p>
-<p>
-    <!DOCTYPE html>
-    <html>
-        <head>
-            <title>This is a title</title>
-        </head>
-        <body>
-            <p>Hello world!</p>
-        </body>
-    </html>
+<div id="primer">
+    <span class="cod">
+        <pre>
 
-Tags: CodingScripting head HTML Introduction to HTML Landing Links semantics Structure Text
-
-
+    <span class="cod">&lt;!DOCTYPE html></span>
+    <span class="cod">&lt;html></span>
+        <span class="cod">&lt;head></span>
+            <span class="cod">&lt;title></span><span class="cod2">This is a title</span><span class="cod">&lt;/title></span>
+        <span class="cod">&lt;/head></span>
+        <span class="cod">&lt;body></span>
+            <span class="cod">&lt;p></span><span class="cod2">Hello world!</span><span class="cod">&lt;/p></span>
+        <span class="cod">&lt;/body></span>
+    <span class="cod">&lt;/html>
+        </pre>
+    </span>
+</div>
+<hr class="line">
 </body>
+<footer>
+    <ul id="footdfn">
+        <li><b>Tags:</b></li>
+        <li>CodingScripting</li>
+        <li>head</li>
+        <li>HTML</li>
+        <li>Introduction to HTML</li>
+        <li>Landing</li>
+        <li>Links semantics</li>
+        <li>Structure</li>
+        <li>Text</li>
+    </ul>
+</footer>

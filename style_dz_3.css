@@ -1,9 +1,67 @@
 -ms-hyphens: auto;
 -webkit-hyphens: auto;
 hyphens: auto;
-
+h1{color: Black;} <!-- RGB палитра -->
+h2{color: Black;} <!-- прямое описание цвета -->
+h3{color: Black;}
+h4{color: Black;}
+h5{color: Black; background:#dfdfdf;}
+h6{color: Black;}
+head
+{
+}
+header
+{
+}
 body
+{
+    padding-left:10px;
+    padding-right:10px;
+    Font-family: Calibri;
+    background:#f5f5f5;
+    abbr
     {
-        font-family: Calibri;
-        background:#f5f5f5;
+        text-decoration: underline dotted black;
     }
+    .cod
+    {
+        background:#dfdfdf;
+        color:#900020;
+    }
+    .line
+    {
+        border: none;
+        height: 3px;
+        background:#dfdfdf;
+    }
+    #primer
+    {
+        background:#dfdfdf;
+    }
+}
+footer
+{
+    padding:0px;
+    #footdfn
+    {
+        list-style:none;
+        display:flex;
+        margin: 0px;
+        padding: 0px;
+        padding-left:0px;
+        font-size:15px;
+        display:left;
+    }
+    #footdfn ul
+    {
+        list-style:none;
+        display:flex;
+        margin: 10px;
+        padding: 0px;
+        padding-left:0px;
+    }
+    #footdfn ul li
+    {
+    background:#dfdfdf;
+    }
+}
