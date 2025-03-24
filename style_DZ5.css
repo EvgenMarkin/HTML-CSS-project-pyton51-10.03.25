@@ -1,9 +1,13 @@
 -ms-hyphens: auto;
 -webkit-hyphens: auto;
 hyphens: auto;
-#
-body
-    {
-        font-family: Calibri;
-        background:#f5f5f5;
+h1{color: Black;} <!-- RGB палитра -->
+body{
+    font-family: Calibri;
+    background:#f5f5f5;
     }
+dd {
+  display: list-item;
+  list-style-image: url("images/arrow.gif");
+  padding-inline-start: 1ch;
+}
