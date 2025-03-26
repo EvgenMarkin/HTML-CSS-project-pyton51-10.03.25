@@ -60,6 +60,8 @@
 }
 
 header{
+font-family: Times New Roman;
+
     background:#87a96b;
     color:#6f0035; <!-- HEX описание цвета -->
 }

@@ -1,9 +1,18 @@
 -ms-hyphens: auto;
 -webkit-hyphens: auto;
 hyphens: auto;
-#
+h1{color: Black;
+text-align:center;
+}
+h4{color: black;}
+header{
+font-family: Times New Roman;
+}
 body
     {
-        font-family: Calibri;
-        background:#f5f5f5;
+    .green ol li{
+    color:red
+    }
+    font-family: Calibri;
+    background:#f5f5f5;
     }
