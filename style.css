@@ -1,5 +1,5 @@
 *{/*глобальное обращение по всему умолчанию*/
-   color:black;
+   /*color:black;*/
    foot-size: 75px;
 }
 /*Оформление меню*/
@@ -7,12 +7,14 @@
         width:auto;
         display:flex;
         margin: 0 auto 0px;
-
+        color:black;
 }
     header{
         background: #87a96b;
         padding:0px;
         margin:0px;
+        color:black;
+
 }
     .menu1 ul{
         list-style:none;
@@ -20,7 +22,7 @@
         margin: 0px;
         padding: 0px;
         padding-left:0 ;
-
+        color:black;
 }
 .menu1footer ul{
         list-style:none;
@@ -28,6 +30,7 @@
         margin: 0px;
         padding: 0px;
         padding-left:0 ;
+        color:black;
 
 }
     .menu1 ul li{
@@ -39,6 +42,7 @@
         vertical-align: bottom;
         transition:1S;
         margin: 5px;
+        color:black;
 }
 .menu1footer ul li{
         width: auto;
@@ -50,6 +54,7 @@
         transition:1S;
         margin: 5px;
         diplay:block;
+        color:black;
 }
     .menu1 ul li:hover,.menu1footer ul li:hover{
         background:red;
