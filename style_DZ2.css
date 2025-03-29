@@ -19,6 +19,7 @@ body
     height: 20px;
     padding-top: 2px;
     padding-left: 4px;
+    text-decoration: underline;
     }
 article.comment
     {
