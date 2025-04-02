@@ -4,7 +4,7 @@
     <link href='style_form.css' rel='stylesheet'>
     <META charset='UTF-8'>
     <title>Создание форм</title>
-    <style>
+    <!--style>
         label{
             display: inline-block;
             width:70px;
@@ -37,7 +37,7 @@
         form li + li{
             margen-top:0.5em;
         }
-    </style>
+    </style-->
 </head>
 <body>
     <!--form action="seach/" method="GET">
@@ -64,7 +64,7 @@
         <input type="url"/><br>
         <input type="week"/>
     </form-->
-    <hr>
+
     <!--form action="search" method="POST">
         <h3>Форма правки сообщений</h3>
         <ul>
@@ -89,28 +89,28 @@
         </li>
         </ul>
     </form-->
-    <hr>
+
 <form class="credit">
     <div class="h2absolute"><h2>CREDIT CARD DETAL</h2>
     </div>
     <div>
-        <label>Card Number</label><br>
+        <label>Card Number</label><br><br>
         <input type="text">
     </div>
     <div>
-        <label>Name On Card</label><br>
+        <label>Name On Card</label><br><br>
         <input type="text" placeholder="Ivanov Ivan">
     </div>
-    <div>
-        <div class="divblock">
-            <label>Expiry Date</label><br>
+    <div class="divblock">
+        <div>
+            <label>Expiry Date</label><br><br>
             <input type="number" placeholder="01">
         </div>
-        <div>
+        <div id="god">
             <input type="number" placeholder="2025">
         </div>
         <div>
-            <label>CVV/CVN</label>
+            <label>CVV/CVN</label><br><br>
             <input type="password" placeholder="***">
         </div>
     </div>
