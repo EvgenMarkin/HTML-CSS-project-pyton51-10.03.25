@@ -187,3 +187,26 @@ section {
     font-size: 1em;
     margin: 6px 0 2px;
 }
+.workss{
+    list-style-type:none;
+    display:flex;
+    display: block;
+}
+.workss ul li{
+    margin:20px;
+    }
+.workss{
+
+    display:flex;
+
+}
+
+.works::before,
+.works::after {
+    content: '';
+    display: table;
+}
+
+.works::after {
+    clear: both;
+}
