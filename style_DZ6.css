@@ -177,6 +177,9 @@ section {
 .mt-team {
     margin-top: 57px;
 }
+.table9{
+    margin-top: 18px;
+}
 .team-member img {
     transition: filter .5s;
 }
@@ -184,7 +187,9 @@ section {
 .team-member img:hover {
     filter: brightness(70%);
 }
-
+.table img:hover {
+    filter: brightness(70%);
+}
 .team-member h3 {
     font-size: 1em;
     margin: 6px 0 2px;
@@ -220,4 +225,11 @@ ul li{
 
 .works::after {
     clear: both;
+}
+#project{
+    height: 500px;
+    background: url(images/hr.png) no-repeat #6c1d14;
+    background-size: cover;
+    color: #fff;
+    padding-top: 37px;
 }
