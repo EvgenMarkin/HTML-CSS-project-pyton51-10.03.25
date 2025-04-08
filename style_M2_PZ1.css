@@ -14,44 +14,38 @@
         margin: 5px;
         padding: 0px;
     }
-    #zad1 ol
+#zad1 ol
     {
 
         padding: 0px;
-        padding-left:10px;
-        background:#ed9eae;
-    }
-    #zad1 ol li
-    {
+        padding-left:0px;
+        /*background:#ed9eae;*/
 
+    }
+.zd li{
+    background-image: linear-gradient(0deg, yellow, yellow);
+    background-clip: padding-box;
+}
+#zad1 ol li
+    {
         width: min-content;
-        height: 37Px;
-        font-size:30px;
+        height: 30Px;
+        font-size:20px;
         background:#9e354a;
         padding:top 0px;
-        margin-left: 40px;
-        text-align: left; /* Горизонтальное положение*/
+        margin-left: 30px;
+        text-align: left; 
         vertical-align: bottom;
-    }
-#zad1 ol li::before
-{
+        margin-right: auto;
 
-}
-#zad1 ol li::marker
-{
-    color: white;
-    background-color:#c66376;
-}
+    }
 .zd
 {
-    padding: 10px;
-    margin: 10px;
-    color:white;
+    padding: 2px;
+    margin: 0px;
+
 }
-#zd ol
-{
-    margin-border: 10px solid black;
-}
+
 body
 {
     background:#ed9eae;
