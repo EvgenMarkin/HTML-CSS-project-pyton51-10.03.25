@@ -111,8 +111,84 @@
         <mxCell id="e27zW9fdkTWWJZNtVl3l-17" value="Конец" style="whiteSpace=wrap;html=1;rounded=1;arcSize=20;" vertex="1" parent="1">
           <mxGeometry x="354" y="555" width="120" height="45" as="geometry" />
         </mxCell>
+        <mxCell id="e27zW9fdkTWWJZNtVl3l-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="e27zW9fdkTWWJZNtVl3l-19" target="e27zW9fdkTWWJZNtVl3l-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="e27zW9fdkTWWJZNtVl3l-19" value="Начало" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="670" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e27zW9fdkTWWJZNtVl3l-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="e27zW9fdkTWWJZNtVl3l-20" target="e27zW9fdkTWWJZNtVl3l-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e27zW9fdkTWWJZNtVl3l-20" value="Посмотреть объемы грязной посуды, типы грязи" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="655" y="180" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e27zW9fdkTWWJZNtVl3l-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="e27zW9fdkTWWJZNtVl3l-22" target="e27zW9fdkTWWJZNtVl3l-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e27zW9fdkTWWJZNtVl3l-22" value="сложить всю грязную посуду на мойку" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e27zW9fdkTWWJZNtVl3l-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="e27zW9fdkTWWJZNtVl3l-24" target="e27zW9fdkTWWJZNtVl3l-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e27zW9fdkTWWJZNtVl3l-24" value="подготовить средства для мытья, щетки, мыло, губки, проверить наличие воды в кране" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="340" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="e27zW9fdkTWWJZNtVl3l-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="e27zW9fdkTWWJZNtVl3l-26" target="e27zW9fdkTWWJZNtVl3l-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e27zW9fdkTWWJZNtVl3l-26" value="замочить в горячей воде сильные загрязнения, смочить остальное" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e27zW9fdkTWWJZNtVl3l-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="e27zW9fdkTWWJZNtVl3l-28" target="e27zW9fdkTWWJZNtVl3l-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e27zW9fdkTWWJZNtVl3l-28" value="механический всю посуду влажной губкой с мылом почистить" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="524.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e27zW9fdkTWWJZNtVl3l-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="e27zW9fdkTWWJZNtVl3l-30" target="e27zW9fdkTWWJZNtVl3l-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e27zW9fdkTWWJZNtVl3l-30" value="смывать и сложить на сушилку" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="600" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="e27zW9fdkTWWJZNtVl3l-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="e27zW9fdkTWWJZNtVl3l-32">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="730" y="440" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="650" y="715" />
+              <mxPoint x="650" y="430" />
+              <mxPoint x="731" y="430" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e27zW9fdkTWWJZNtVl3l-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="e27zW9fdkTWWJZNtVl3l-32" target="e27zW9fdkTWWJZNtVl3l-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e27zW9fdkTWWJZNtVl3l-32" value="смылась вся &lt;br&gt;грязь с посуды?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="660" width="120" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="e27zW9fdkTWWJZNtVl3l-35" value="да" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="655" y="750" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="e27zW9fdkTWWJZNtVl3l-36" value="Нет" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="650" y="670" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="e27zW9fdkTWWJZNtVl3l-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="e27zW9fdkTWWJZNtVl3l-37" target="e27zW9fdkTWWJZNtVl3l-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e27zW9fdkTWWJZNtVl3l-37" value="высушить или слить остатки воды " style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="790" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="e27zW9fdkTWWJZNtVl3l-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="e27zW9fdkTWWJZNtVl3l-39" target="e27zW9fdkTWWJZNtVl3l-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e27zW9fdkTWWJZNtVl3l-39" value="разложить посуду по местам" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="850" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e27zW9fdkTWWJZNtVl3l-41" value="Конец" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="930" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
