@@ -1,85 +1,68 @@
-*{/*глобальное обращение по всему умолчанию*/
+*{
    /* #9e354a цвет на фоне слов*/
    /* #c66376 цвет строки*/
    /* #ed9eae цвет на фоне общем*/
    color:white;
    foot-size: 0px;
 }
-/*Оформление меню*/
-    #zad1
-    {
 
-        width:avto;
-        display:block;
-        margin: 5px;
-        padding: 0px;
-    }
-#zad1 ol
-    {
-
-        padding: 0px;
-        padding-left:0px;
-        /*background:#ed9eae;*/
-
-    }
-.zd li{
-    background-image: linear-gradient(0deg, yellow, yellow);
-    background-clip: padding-box;
-}
-#zad1 ol li
-    {
-        width: min-content;
-        height: 30Px;
-        font-size:20px;
-        background:#9e354a;
-        padding:top 0px;
-        margin-left: 30px;
-        text-align: left; 
-        vertical-align: bottom;
-        margin-right: auto;
-
-    }
-.zd
-{
-    padding: 2px;
+#zad1{
+    width:auto;
+    display:block;
     margin: 0px;
+    padding: 0px;
+    background:#c66376;
+    }
 
+#zad1 ol{
+    padding: 0px;
+    padding-left:0px;
+    }
+
+#zad1 ol li{
+    width: min-content ;
+    height: 27Px;
+    font-size:20px;
+    background:#9e354a;
+    margin-left: 30px;
+    text-align: left;
+    vertical-align: bottom;
+    margin-right: auto;
+    }
+
+.zd{
+    padding: 4px 20px 3px 20px;
+    margin: 0px;
+    margin:
 }
-
-body
-{
+.fon{
+    width:auto;
+    display:block;
+    margin: 0px;
+    padding: 5px;
     background:#ed9eae;
-    color:#6f0035; <!-- HEX описание цвета -->
 }
-p
-{
+
+body{
+    background:#ed9eae;
+    color:#6f0035;
+}
+p{
     font-size:25px;
 }
 
-/* при одинаковом повторинии упращение h1,h2,h3...{} */
-/* свойства для абзацев */
 #p1{
-    /*нужен для отображения пробелов между словами*/
-    /*normal
-    |nowrap не учитывать пробелы и переносы
-    |pre отображение с учетом всех перенососв и пробелов
-    |pre-line не учитывать пробелы, перенести текст на слейдующую строку
-    |pre-wrap сохраняет все пробелы и переносы, но если строка не помещается - то текст автоматический будет преренесен*/
-    white-space: nowrap;
+   white-space: nowrap;
     }
 
 #p2{
     white-space: normal;
-
     word-break: break-all;
-     width:200px;}/* gthtyjc cnhjr dyenhb ckjd |normal
-     |break-all добовляет перенос строк так, чтобы слово поместилось в заданную ширину
-     | keep-all запрещяет перенос слов*/
+    width:200px;
+    }
+
 .p3{
     white-space: normal;
     writing-mode:vertical-lr;
     height:100px;
-    /*writing-mode:horizontal-tb;Горизонтальная сверхху вниз,
-    vertical-rl вертикальня сверху вниз справо налево
-    vertical-lr вертикальная сверху вниз слева напрво*/
     }
