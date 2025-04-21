@@ -5,5 +5,40 @@
     <title>Создание форм</title>
 </head>
 <body>
+    <form>
+        <label for="inputs"><h4>input</h4></label>
+        <div>
+            <input type="text" id="inputs" inputmode="numeric" placeholder="Enter some text"/>
+            <input type="text" inputmode="numeric" placeholder="valid text" title="Введите число от 1 до 9" pattern="[1-9]"/>
+            <input type="text" inputmode="numeric" placeholder="invalid text" title="Введите число от 1 до 9" pattern="[1-9]"/>
+        </div>
+        <h4>Check boxes</h4>
+        <div>
+            <label class="checkbox-green">
+        	    <input type="checkbox">
+        	    <span class="checkbox-green-switch" data-label-on="On" data-label-off="Off"></span>
+                Subskibe
+            </label>
+            <label class="checkbox-green">
+                <input type="checkbox" checked>
+                <span class="checkbox-green-switch" data-label-on="On" data-label-off="Off"></span>
+                Subskibe
+            </label>
+        </div>
+        <h4>Radio buttons</h4>
+        <div>
+            <button></button>
 
+        </div>
+        <h4>Buttons</h4>
+        <div>
+            <button></button>
+        </div>
+        <h4>Text area</h4>
+        <div>
+            <textarea>Enter soma text
+            </textarea>
+
+        </div>
+    </form>
 </body>

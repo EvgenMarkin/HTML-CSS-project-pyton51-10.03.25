@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="ff8a9c47-9d22-4651-beae-6112a4204ec6" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/25.04.23_pz2.html" beforeDir="false" afterPath="$PROJECT_DIR$/25.04.23_pz2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/25.04.23_pz2_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/25.04.23_pz2_style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,17 +32,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.25.04.16_pz2.executor": "Run",
-    "Python.25.04.16_pz3.executor": "Run",
-    "Python.25.04.24 Python_DZ_Modul__02_Operatory_vetvlenij_c_1_1573140548.executor": "Run",
-    "Python.25.04.24 Python_PZ_Modul__02_Operatory_vetvlenij_c_1_1573140606.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.25.04.16_pz2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.25.04.16_pz3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.25.04.24 Python_DZ_Modul__02_Operatory_vetvlenij_c_1_1573140548.executor&quot;: &quot;Run&quot;,
+    &quot;Python.25.04.24 Python_PZ_Modul__02_Operatory_vetvlenij_c_1_1573140606.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
