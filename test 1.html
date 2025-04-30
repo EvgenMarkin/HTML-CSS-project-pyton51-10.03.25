@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Elements</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style_test.css">
+</head>
+<body>
+    <div class="form-container">
+        <h1>Inputs</h1>
+
+        <div class="form-group">
+            <div class="input-wrapper">
+                <input type="text" placeholder="Enter some text">
+            </div>
+            <div class="input-wrapper valid">
+                <input type="text" value="valid text">
+                <i class="fas fa-check"></i>
+            </div>
+            <div class="input-wrapper invalid">
+                <input type="text" value="invalid text">
+                <i class="fas fa-times"></i>
+            </div>
+        </div>
+
+        <h1>Check boxes</h1>
+        <div class="form-group">
+            <label class="toggle-switch">
+                <input type="checkbox">
+                <span class="slider"></span>
+                <span class="label-text">Subscribe</span>
+            </label>
+            <label class="toggle-switch">
+                <input type="checkbox" checked>
+                <span class="slider"></span>
+                <span class="label-text">Subscribe</span>
+            </label>
+        </div>
+
+        <h1>Radio buttons</h1>
+        <div class="form-group">
+            <span class="radio-label">Gender:</span>
+            <label class="radio">
+                <input type="radio" name="gender">
+                <span class="radiomark"></span>
+                Male
+            </label>
+            <label class="radio">
+                <input type="radio" name="gender" checked>
+                <span class="radiomark"></span>
+                Female
+            </label>
+        </div>
+
+        <h1>Buttons</h1>
+        <div class="form-group toggle-buttons">
+            <label class="toggle-button">
+                <input type="radio" name="toggle" checked>
+                <span>Active</span>
+            </label>
+            <label class="toggle-button">
+                <input type="radio" name="toggle" checked>
+                <span>Hover</span>
+            </label>
+            <label class="toggle-button danger">
+                <input type="radio" name="toggle2" checked>
+                <span>Danger</span>
+            </label>
+            <label class="toggle-button danger">
+                <input type="radio" name="toggle2" checked>
+                <span>Hover</span>
+            </label>
+            <button class="disabled-btn" disabled>Disabled</button>
+        </div>
+
+        <h1>Text area</h1>
+        <div class="form-group">
+            <textarea placeholder="Enter some text..."></textarea>
+        </div>
+    </div>
+</body>
+</html>
