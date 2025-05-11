@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff8a9c47-9d22-4651-beae-6112a4204ec6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/style_test.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test 1.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/25.04.23_pz2.html" beforeDir="false" afterPath="$PROJECT_DIR$/25.04.23_pz2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/25.04.23_pz2_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/25.04.23_pz2_style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,19 +31,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "Python.25.04.16_pz2.executor": "Run",
-    "Python.25.04.16_pz3.executor": "Run",
-    "Python.25.04.24 Python_DZ_Modul__02_Operatory_vetvlenij_c_1_1573140548.executor": "Run",
-    "Python.25.04.24 Python_PZ_Modul__02_Operatory_vetvlenij_c_1_1573140606.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/Lumen/Documents/GitHub/HTML-CSS-project-pyton51-10.03.25"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Python.25.04.16_pz2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.25.04.16_pz3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.25.04.19 Python_PZ_Modul__01_Vvedenie_c_2_1573140489.executor&quot;: &quot;Run&quot;,
+    &quot;Python.25.04.23 Python_DZ_Modul__01_Vvedenie_c_3_1573140451.executor&quot;: &quot;Run&quot;,
+    &quot;Python.25.04.24 Python_DZ_Modul__02_Operatory_vetvlenij_c_1_1573140548.executor&quot;: &quot;Run&quot;,
+    &quot;Python.25.04.24 Python_PZ_Modul__02_Operatory_vetvlenij_c_1_1573140606.executor&quot;: &quot;Run&quot;,
+    &quot;Python.25.05.10_dz.executor&quot;: &quot;Run&quot;,
+    &quot;Python.25.05.10_pz.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Lumen/Documents/GitHub/HTML-CSS-project-pyton51-10.03.25&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Lumen\Documents\GitHub\HTML-CSS-project-pyton51-10.03.25" />
@@ -56,7 +56,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-348a24fa61fa-5312c7369657-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-251.23774.444" />
+        <option value="bundled-python-sdk-2ee2454479a3-9cdd278e9d02-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-251.25410.122" />
       </set>
     </attachedChunks>
   </component>
