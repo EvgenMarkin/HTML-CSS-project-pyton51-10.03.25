@@ -233,3 +233,57 @@ ul li{
     color: #fff;
     padding-top: 37px;
 }
+#works { padding: 94px 0; }
+.filters a {
+  display: inline-block;
+  margin: 0 10px;
+  color: #555;
+  text-transform: uppercase;
+}
+.work-item {
+  position: relative;
+  margin-bottom: 30px;
+}
+.work-caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(108, 29, 20, 0.8);
+  color: white;
+  padding: 15px;
+}
+
+/* CTA Section */
+#cta {
+  background: url(images/hr.png) no-repeat #6c1d14;
+  background-size: cover;
+  color: white;
+  padding: 80px 0;
+}
+#cta h2 { font-size: 2rem; }
+#cta .btn-outline {
+  border-color: white;
+  color: white;
+  margin-top: 30px;
+}
+
+/* Blog Posts */
+.blog-post {
+  position: relative;
+  border: 1px solid #eee;
+  padding: 15px;
+}
+.post-date {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background: #6c1d14;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+.read-more {
+  color: #6c1d14;
+  font-weight: bold;
+}
