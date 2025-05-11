@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Регистрация в игре</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f0f0f0;
+        }
+        form {
+            border: 1px solid #333;
+            padding: 20px;
+            border-radius: 5px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        label {
+            display: block;
+            margin-top: 15px;
+        }
+        input, select, textarea {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        fieldset {
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            margin-top: 15px;
+            padding: 10px;
+        }
+        legend {
+            padding: 0 5px;
+            font-weight: bold;
+        }
+        button {
+            background-color: #2c3e50;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-top: 20px;
+            font-size: 16px;
+        }
+        button:hover {
+            background-color: #1a252f;
+        }
+        .game-title {
+            color: #e74c3c;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="game-title">Регистрация в онлайн-игре</h1>
+    <form action="/register" method="POST">
+        <label for="nickname">Ник:</label>
+        <input type="text" id="nickname" name="nickname" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="birthday">Дата рождения:</label>
+        <input type="date" id="birthday" name="birthday" required>
+
+        <fieldset>
+            <legend>Пол:</legend>
+            <label>
+                <input type="radio" name="gender" value="male" checked>
+                Мужской
+            </label>
+            <label>
+                <input type="radio" name="gender" value="female">
+                Женский
+            </label>
+            <label>
+                <input type="radio" name="gender" value="other">
+                Другой
+            </label>
+        </fieldset>
+
+        <label for="country">Страна:</label>
+        <input type="text" id="country" name="country" list="countries" required>
+        <datalist id="countries">
+            <option value="Россия">
+            <option value="США">
+            <option value="Германия">
+            <option value="Франция">
+            <option value="Япония">
+            <option value="Китай">
+            <option value="Бразилия">
+            <option value="Канада">
+            <option value="Великобритания">
+            <option value="Испания">
+        </datalist>
+
+        <label for="heroType">Тип героя:</label>
+        <select id="heroType" name="heroType" required>
+            <option value="">-- Выберите тип героя --</option>
+            <option value="warrior">Воин</option>
+            <option value="mage">Маг</option>
+            <option value="archer">Лучник</option>
+            <option value="healer">Лекарь</option>
+            <option value="rogue">Разбойник</option>
+        </select>
+
+        <label for="experience">Игровой опыт в годах (0-60):</label>
+        <input type="number" id="experience" name="experience" min="0" max="60" value="0" required>
+
+        <button type="submit">Зарегистрироваться</button>
+    </form>
+</body>
+</html>
